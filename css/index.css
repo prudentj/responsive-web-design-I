@@ -185,7 +185,7 @@ footer{
 	padding-bottom:2%
 }
 .services-header-img{
-	width: auto;
+	width: 100%;
 	padding-top:1%;
 	padding-bottom:2%
 }
@@ -254,7 +254,33 @@ footer{
     .code-pic{
         display:none;
     }
+    /*****Services section*****/
+    .services-info-img{
+        display:none;
+    }
+    .service-bottom div{
+        text-align: center;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
 
+    }
+    .bottom-text{
+        text-align: center;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        width:50%;
+        line-height: 15px;
+
+    }
+    .list{
+        width:20%;
+    }
+    .list li{
+        margin-top:50%;
+
+    }
   }
 
 
@@ -298,4 +324,13 @@ footer{
     .Contact{
         padding: 3% 0% 3% 0%;
     }
+    /**Services Section**/
+    .service-content div{
+        margin:2%;
+        background:lightgrey;
+        border:black solid 1px;
+        width: 100%;
+        padding:2%;
+    }
+    
   }
